@@ -1,7 +1,7 @@
     import axios  from "axios";
 
     const instance = axios.create({
-        baseURL: "https://hotelapp-1-38xj.onrender.com/api",
+        baseURL: "https://hotelapp-2.onrender.com",
         withCredentials:true
     })
 
