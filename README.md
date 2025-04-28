@@ -67,7 +67,7 @@ A full-stack web development project that allows users to create accounts, uploa
 ---
 
 ## 📁 Project Structure
-
+`
 Backend/
 ├── src/
 │   ├── config/         # Configuration files (Razorpay, Email, etc.)
@@ -80,7 +80,8 @@ Backend/
 ├── server.js
 ├── .env.sample         # Environment variables template
 ├── package.json
-
+`
+`
 Frontend/
 ├── src/
 │   ├── api/            # Axios services (user, property, booking, payment, review)
@@ -94,22 +95,22 @@ Frontend/
 ├── public/
 ├── .env
 ├── package.json
-
+`
 
 ---
 
 ## 🔑 Environment Variables (.env)
 
 **Create a `.env` in both Frontend folder with the following variables:-**
-
+`
 NODEMAILER_APP_PASSWORD = your_nodemailer_password
 NODEMAILER_MAIL = your_nodemailer_mail
 VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
 VITE_RAZORPAY_KEY_ID_SECRET = your_razorpay_key_secret
-
+`
 
 **`.env` in Backend folder with the following variables:-**
-
+`
 MONGO_URL = your_mongodb_connection_string
 JWT_SECRET_KEY = your_jwt_secret_key
 RAZORPAY_KEY_ID = your_razorpay_key_id
@@ -117,7 +118,7 @@ RAZORPAY_SECRET_KEY = your_razorpay_key_secret
 NODEMAILER_APP_PASSWORD = your_nodemailer_password
 NODEMAILER_MAIL = your_nodemailer_mail
 PORT = 8000
-
+`
 > ⚠️ Keep your `.env` file private and secure. **Not pushed into the GitHub.**
 
 ---
@@ -125,40 +126,40 @@ PORT = 8000
 ## 🛠️ Installation and Setup Instructions
 
 ### 1. Clone the repository
-
+`
 git clone https://github.com/Anshi-01/HotelApp
 cd HotelApp
-
+`
 
 ### 2. Install dependencies
 
 **For the Backend:**
-
+`
 cd Backend
 npm install
-
+`
 
 **For the Frontend:**
-
+`
 cd Frontend
 npm install
-
+`
 
 ---
 
 ### 3. Run the application
 
 **Start the backend server:**
-
+`
 cd Backend
 npx nodemon
-
+`
 
 **Start the frontend React app:**
-
+`
 cd Frontend
 npm run dev
-
+`
 
 
 ## 📸 Screenshots
