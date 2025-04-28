@@ -126,40 +126,40 @@ PORT = 8000
 ## 🛠️ Installation and Setup Instructions
 
 ### 1. Clone the repository
-`
+```
 git clone https://github.com/Anshi-01/HotelApp
 cd HotelApp
-`
+```
 
 ### 2. Install dependencies
 
 **For the Backend:**
-`
+```
 cd Backend
 npm install
-`
+```
 
 **For the Frontend:**
-`
+```
 cd Frontend
 npm install
-`
+```
 
 ---
 
 ### 3. Run the application
 
 **Start the backend server:**
-`
+```
 cd Backend
 npx nodemon
-`
+```
 
 **Start the frontend React app:**
-`
+```
 cd Frontend
 npm run dev
-`
+```
 
 
 ## 📸 Screenshots
