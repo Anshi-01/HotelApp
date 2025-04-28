@@ -107,9 +107,10 @@ NODEMAILER_MAIL = your_nodemailer_mail
 VITE_RAZORPAY_KEY_ID = your_razorpay_key_id
 VITE_RAZORPAY_KEY_ID_SECRET = your_razorpay_key_secret
 
+```
 
 **`.env` in Backend folder with the following variables:-**
-
+```
 MONGO_URL = your_mongodb_connection_string
 JWT_SECRET_KEY = your_jwt_secret_key
 RAZORPAY_KEY_ID = your_razorpay_key_id
