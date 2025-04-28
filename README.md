@@ -163,9 +163,7 @@ npm run dev
 
 
 ## 📸 Screenshots
-
-
-
+[Refer this file-](https://github.com/Anshi-01/HotelApp/tree/main/screenshots%20of%20HotelApp)
 
 ---
 
