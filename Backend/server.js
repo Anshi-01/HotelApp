@@ -25,7 +25,7 @@ app.use(morgan("tiny"));
 
 // Setup cors
 app.use(cors({
-    origin:'https://hotel-app-three-virid.vercel.app/',
+    origin:'https://hotel-app-three-virid.vercel.app',
     credentials:true,
 }))
 
