@@ -1,6 +1,6 @@
 ## 🏨 Hotel Booking Application
 
-A full-stack web development project that allows users to create accounts, upload profile pictures, browse and book hotel properties, post reviews, make payments via Razorpay, and receive booking confirmation emails. Property owners can also list their hotels/restaurants on the platform.
+The Hotel Booking App is a full-stack web application designed to allow users to search for, view, and book hotels with ease. The frontend is built using ReactJS, offering a smooth, modern, and responsive user interface, while the backend is developed with Node.js, Express, and MongoDB to handle server-side logic, data storage, authentication, and payment processing. Users can browse available properties, view detailed information about each hotel, and securely complete bookings through Razorpay integration. Authentication is managed using JWT tokens to protect user data and ensure secure access to private routes. Upon successful booking, users receive confirmation emails powered by Nodemailer. The app is structured to provide a seamless and secure booking experience, with plans for an admin panel that would allow administrators to manage hotel listings and bookings efficiently.
 
 ---
 
